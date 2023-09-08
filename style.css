@@ -1,0 +1,430 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+  h1,h2,h3,h4,p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+.navbar{
+    border-radius: 30px;
+    background-color: #fff;    
+    position: absolute;
+    top: 3%;
+    width: 90%; 
+}
+
+.navbar .navbar-brand img{
+    width: 70px;
+}
+header{
+    background-image: linear-gradient(172deg, #feedbc 70%, rgba(249, 184, 0, 1)calc(70% + 2px)) ;
+    position: relative;
+    padding-bottom: 20%;
+}
+.header-content h4{
+    font-size: 30px;
+    font-weight: 700;
+    color:  rgba(249, 184, 0, 1);
+    text-transform: uppercase;
+}
+.header-content h1{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 90px;
+}
+.header-content h2{
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 90px;
+}
+.header-btn:hover button{
+  background-color: #000;
+  color: #fff;
+}
+.header-btn:hover i{
+    color: #fff;
+}
+@media screen and (max-width: 768px) {
+    .navbar{
+        width: 90%;
+    }
+    .header-content h4{
+     
+        font-size: 24px;
+        text-align: center;
+    }
+    .header-content h1{
+        font-size: 40px;
+        text-align: center;
+        margin-top: -2%;
+    }
+    .header-content h2{
+        font-size: 42px;
+        text-align: center;
+        margin-top: -4%;
+    }
+    header{
+        background-image: linear-gradient(172deg, #feedbc 92%, rgba(249, 184, 0, 1)calc(92% + 2px)) ;
+       }
+       .header-image{
+        margin-top: -15%;
+       }
+}
+@media screen and (max-width: 580px) {
+    .header-content h4{
+        margin-top: 10%;
+        font-size: 20px;
+    }
+    .header-content h1{
+        font-size: 28px;
+        margin-top: -4%;
+    }
+    .header-content h2{
+        font-size: 30px;
+        margin-top: -8%;
+    }
+   header{
+    padding-bottom: 35%;
+    background-image: linear-gradient(172deg, #feedbc 92%, rgba(249, 184, 0, 1)calc(92% + 2px)) ;
+
+   }
+   .header-image{
+    margin-top: -5%;
+   }
+}
+
+
+.header-btn button{
+    color: #000;
+    background: rgba(249, 184, 0, 1);
+    border-radius: 30px;
+}
+.header-btn i{
+    color: #000;
+}
+.badges{
+    background-color: #fff;
+    border-radius: 30px;
+}
+.badges h6{
+    font-size: 18px;
+    font-weight: 600;
+}
+.badges .fa{
+    color: rgba(249, 184, 0, 1);
+    font-size: 14px;
+}
+
+/* section-1 */
+.section-1{
+    background-image: linear-gradient(172deg, rgba(249, 184, 0, 1) 70%, rgba(38, 38, 38, 1) calc(70% + 2px)) ;
+    padding-bottom: 15%;
+    margin-top: -10%;
+}
+.section-1-content h1{
+font-size: 40px;
+font-weight: 700;
+color:  rgba(38, 38, 38, 1);
+}
+.section-1-content h6{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 3%;
+}
+.section-btn button{
+    color: #fff;
+    background: rgba(38, 38, 38, 1);
+    border-radius: 30px;
+}
+.section-btn:hover button{
+    color: #000;
+    background-color: #fff;
+}
+/*  */
+
+@media screen and (max-width: 768px) {
+    .section1-image{
+        margin-top: -20%;
+       }
+       .section-1-content h1{
+        text-align: center;
+        }
+        .section-1-content h6{
+           text-align: center;
+        }
+        .section-1-content p{
+            text-align: center;
+        }
+        .section-btn {
+            justify-content: center;
+        }
+        .header-btn {
+            justify-content: center;
+        }
+    }
+
+@media screen and (max-width: 580px) {
+    .section-1-content h1{
+        font-size: 26px;
+        z-index: 999;
+        }
+       .section-1-content h1{
+        margin-top: -15%;
+       }
+       .section1-image{
+        margin-top: -35%;
+       }
+       .section-1{
+        background-image: linear-gradient(172deg, rgba(249, 184, 0, 1) 90%, rgba(38, 38, 38, 1) calc(90% + 2px)) ;
+       }
+}
+/* section-2 */
+.section-2{
+    background-image: linear-gradient(172deg,rgba(38, 38, 38, 1) 70%, rgba(249, 184, 0, 1)  calc(70% + 2px)) ;
+    margin-top: -8%;
+    padding-bottom: 20%;
+}
+.section-2-content p{
+    color: rgba(249, 184, 0, 1);
+    font-size: 15px;
+    font-weight: 400;
+}
+.section-2-content h1{
+    font-size: 40px;
+    font-size: 700;
+    color: #fff;
+}
+.card-1,.card-2,.card-3,.card-4{
+    border-radius: 30px;
+    height: 85%;
+    width: 100%;
+}
+.card-2,.card-3{
+    background: rgba(249, 184, 0, 1);
+}
+.card-number h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+.card-title h4{
+    color: #000;
+    font-size: 15px;
+    font-weight: 700;
+}
+.card-content p{
+    font-size: 15px;
+    color: #333;
+}
+.card-content h6{
+    margin-top: 8px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.yellow-dot{
+    color:rgba(249, 184, 0, 1) ;
+}
+.white-dot{
+    color: #fff;
+}
+@media screen and (max-width: 768px) {
+    .section-2-content p{
+       text-align: center;
+    }
+    .section-2{
+        background-image: linear-gradient(172deg,rgba(38, 38, 38, 1) 82%, rgba(249, 184, 0, 1)  calc(82% + 2px)) ;
+
+    }
+    .card-1,.card-2,.card-3,.card-4{
+        height: 100%;
+       
+    }
+    .card-2{
+        margin-top: -5%;
+    }
+
+    .section-2-content h1{
+        font-size: 34px;
+        text-align: center;
+    }
+    .icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card-number,.card-title,.card-content{
+        text-align: center;
+    }
+    }
+    @media screen and (max-width: 488px) {
+        .section-2-content h1{
+            font-size: 25px;
+
+        }
+        .section-2{
+            background-image: linear-gradient(172deg,rgba(38, 38, 38, 1) 86%, rgba(249, 184, 0, 1)  calc(86% + 2px)) ;
+    
+        }
+        
+        }
+/* section-3 */
+.section-3{
+    margin-top: -20%;
+    padding-bottom: 25%;
+    background-image: linear-gradient(172deg, rgba(249, 184, 0, 1) 70%, rgba(38, 38, 38, 1)  calc(70% + 2px)) ;
+
+}
+.section-3-content h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+@media screen and (max-width: 488px) {
+    .section-3{
+        background-image: linear-gradient(172deg, rgba(249, 184, 0, 1) 91%, rgba(38, 38, 38, 1)  calc(91% + 2px)) ;
+    }
+    .section-3-content h1{
+        font-size: 24px;  
+    }
+}
+@media screen and (max-width: 768px) {
+    .section-3-content h1{
+        font-size: 32px;
+        text-align: center;
+    }
+    .caurosel-image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.caurosel-title h1{
+    font-size: 32px;
+    font-weight: 700;
+}
+.caurosel-title p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.section2-caurosel h6{
+    font-size: 15px;
+    font-weight: 700;
+}
+.section2-caurosel{
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+.arrow-icon-left i{
+    color: #000;
+}
+.arrow-icon-right i{
+    color:rgba(249, 184, 0, 1) ;
+}
+
+/* .section-4 */
+.section-4{
+    /* background-color: rgba(38, 38, 38, 1); */
+    background-image: linear-gradient(172deg, rgba(38, 38, 38, 1) 70%, rgba(254, 237, 188, 1)  calc(70% + 2px)) ;
+    padding-bottom: 30%;
+}
+@media screen and (max-width: 768px) {
+    .section-4{
+        background-image: linear-gradient(172deg, rgba(38, 38, 38, 1) 75%, rgba(254, 237, 188, 1)  calc(75% + 2px)) ;
+    }
+}
+.section-main-title{
+    margin-top: -15%;
+}
+.section-main-title h1{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+}
+.section-main-title p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+.accordion h2{
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+
+.accordion p{
+    font-size: 15px;
+    font-weight: 400;
+}
+.accordion .tab{
+    border-radius: 30px;
+}
+@media screen and (max-width: 580px) {
+    .accordion h2{
+        font-size: 15px;
+        font-weight: 700;
+    }   
+    .accordion p{
+        font-size: 12px;
+        font-weight: 400;
+    } 
+    .section-4{
+        padding-bottom: 110% !important;
+    }
+    .section-main-title h1{
+        font-size: 30px;
+    }
+    .section-main-title p{
+        font-size: 12px;
+   
+    }
+  }
+
+/* footer */
+footer{
+    background:  rgba(254, 237, 188, 1) ;
+    margin-top: -15%;
+    overflow-y: hidden;
+}
+.footer-title h1{
+    font-size: 30px;
+    font-weight: 700;
+color: #000
+}
+@media screen and (max-width: 768px) {
+footer{
+    margin-top: -55%;
+}
+    .footer-title h1{
+        font-size: 20px;
+        font-weight: 700;
+        color: #000;
+        text-align: center;
+    }
+    .footer-btn{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+    .footer-copyright{
+        text-align: center;
+        padding-bottom: 5% !important;
+    }
+}
+.footer-btn{
+    background-color:rgba(249, 184, 0, 1) ;
+    color: #000;
+    border-radius: 30px;
+    width: 40%;
+    height: 50px;
+
+    margin-top: 2%;
+}
+.footer-border{
+    border-bottom: 1px solid #777;
+}
+.footer-copyright h6{
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+}
