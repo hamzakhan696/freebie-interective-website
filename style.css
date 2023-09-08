@@ -259,15 +259,7 @@ color:  rgba(38, 38, 38, 1);
     height: 85%;
     width: 100%;
 }
-.card-2,.card-3{
-    background: rgba(249, 184, 0, 1);
-}
-.card-2:hover,.card-3:hover{
-    background-color: #fff;
-}
-.card-1:hover,.card-4:hover{
-    background-color:rgba(249, 184, 0, 1) ;
-}
+
 .card-number h1{
     font-size: 40px;
     font-weight: 700;
@@ -308,6 +300,17 @@ color:  rgba(38, 38, 38, 1);
     justify-content: center;
     align-items: center;
 }
+}
+@media screen and (max-width: 668px) {
+    .card-1:hover,.card-2:hover,.card-3:hover,.card-4:hover{
+        background-color: rgba(249, 184, 0, 1) ;
+    }
+    .card-1,.card-2,.card-3,.card-4{
+        background-color: #fff;
+    }
+    .yellow-dot,.white-dot{
+        color: #000 !important;
+    }
 }
 @media screen and (max-width: 768px) {
     
@@ -384,6 +387,18 @@ color: #000;
     
     .section-3{
         background-image: linear-gradient(172deg, rgba(249, 184, 0, 1) 91%, rgba(38, 38, 38, 1)  calc(91% + 2px)) ;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .card-2,.card-3{
+        background: rgba(249, 184, 0, 1);
+    }
+    .card-2:hover,.card-3:hover{
+        background-color: #fff;
+    }
+    .card-1:hover,.card-4:hover{
+        background-color:rgba(249, 184, 0, 1) ;
     }
 }
 @media screen and (max-width: 992px) {
