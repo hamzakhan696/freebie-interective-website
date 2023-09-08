@@ -19,7 +19,7 @@ h1,h2,h3,h4,h5,h6,p{
     width: 70px;
 }
 header{
-    background-image: linear-gradient(172deg, #feedbc 70%, rgba(249, 184, 0, 1)calc(70% + 2px)) ;
+    background-image: linear-gradient(172deg, #feedbc 75%, rgba(249, 184, 0, 1)calc(75% + 2px)) ;
     position: relative;
     padding-bottom: 20%;
 }
@@ -49,6 +49,32 @@ header{
 }
 .header-btn:hover i{
     color: #fff;
+}
+@media screen and (max-width: 992px) {
+    .header-content{
+        margin-bottom: 5%;
+    }
+    .section-1-content h1{
+        text-align: center;
+        }
+        .section-1-content h6{
+           text-align: center;
+        }
+        .section-1-content p{
+            text-align: center;
+        }
+        .section-btn {
+            justify-content: center;
+        }
+        .header-btn {
+            justify-content: center;
+        }
+        .section1-image{
+            margin-top: -30%;
+        }
+        .section-1-content{
+            margin-top: -30%;
+        }
 }
 @media screen and (max-width: 768px) {
     .navbar{
@@ -156,7 +182,16 @@ color:  rgba(38, 38, 38, 1);
     background-color: #000;
 }
 /*  */
-
+@media screen and (max-width: 992px) {
+    .section-1{
+        background-image: linear-gradient(172deg, rgba(249, 184, 0, 1) 85%, rgba(38, 38, 38, 1) calc(85% + 2px)) ;
+    }
+    .section1-image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+    }
 @media screen and (max-width: 768px) {
     .section1-image{
         margin-top: -20%;
@@ -251,10 +286,25 @@ color:  rgba(38, 38, 38, 1);
 .white-dot{
     color: #fff;
 }
+@media screen and (max-width: 992px){
+.section-2-content p{
+    text-align: center;
+ }
+ .section-2-content h1{
+    font-size: 34px;
+    text-align: center;
+}
+.card-number,.card-title,.card-content{
+    text-align: center;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
 @media screen and (max-width: 768px) {
-    .section-2-content p{
-       text-align: center;
-    }
+    
     .section-2{
         background-image: linear-gradient(172deg,rgba(38, 38, 38, 1) 82%, rgba(249, 184, 0, 1)  calc(82% + 2px)) ;
 
@@ -271,11 +321,7 @@ color:  rgba(38, 38, 38, 1);
         font-size: 34px;
         text-align: center;
     }
-    .icon{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+    
     .card-number,.card-title,.card-content{
         text-align: center;
     }
@@ -324,7 +370,7 @@ color: #000;
         font-size: 24px;  
     }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
     .section-3-btn{
         display: flex;
         justify-content: center;
