@@ -533,7 +533,7 @@ color: #000
         margin-top: -64%;
     }
         .section-4{
-            background-image: linear-gradient(172deg, rgba(38, 38, 38, 1) 70%, rgba(254, 237, 188, 1)  calc(70% + 2px)) ;
+            background-image: linear-gradient(172deg, rgba(38, 38, 38, 1) 75%, rgba(254, 237, 188, 1)  calc(75% + 2px)) ;
         }
 }
 .footer-btn{
