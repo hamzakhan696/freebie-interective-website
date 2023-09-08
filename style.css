@@ -3,8 +3,8 @@
     padding: 0%;
 }
 
-h1, h2, h3, h4, h5, h6, p {
-    font-family: 'Arial', sans-serif;
+h1,h2,h3,h4,h5,h6,p{
+    font-family: "Playfair Display", serif;
 }
 
 .navbar{
@@ -161,6 +161,10 @@ color:  rgba(38, 38, 38, 1);
     .section1-image{
         margin-top: -20%;
        }
+       .section2-btn button{
+        display: flex;
+      
+    }
        .section-1-content h1{
         text-align: center;
         }
@@ -312,6 +316,7 @@ color: #000;
     font-weight: 700;
 }
 @media screen and (max-width: 488px) {
+    
     .section-3{
         background-image: linear-gradient(172deg, rgba(249, 184, 0, 1) 91%, rgba(38, 38, 38, 1)  calc(91% + 2px)) ;
     }
@@ -320,6 +325,14 @@ color: #000;
     }
 }
 @media screen and (max-width: 768px) {
+    .section-3-btn{
+        display: flex;
+        justify-content: center;
+    }
+    .section2-btn{
+        display: flex;
+        justify-content: center;
+    }
     .section-3-content h1{
         font-size: 32px;
         text-align: center;
