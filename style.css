@@ -115,6 +115,10 @@ header{
         font-size: 26px;
         margin-top: -14%;
     }
+    .badges h6{
+        font-size: 15px !important;
+        font-weight: 600;
+    }
    header{
     padding-bottom: 35%;
     background-image: linear-gradient(172deg, #feedbc 92%, rgba(249, 184, 0, 1)calc(92% + 2px)) ;
@@ -130,6 +134,7 @@ header{
     color: #000;
     background: rgba(249, 184, 0, 1);
     border-radius: 30px;
+    font-family: "Playfair Display", serif;
 }
 .header-btn i{
     color: #000;
@@ -167,6 +172,7 @@ color:  rgba(38, 38, 38, 1);
     color: #fff;
     background: rgba(38, 38, 38, 1);
     border-radius: 30px;
+    font-family: "Playfair Display", serif;
 }
 .section-btn:hover button{
     color: #000;
@@ -348,6 +354,7 @@ color:  rgba(38, 38, 38, 1);
     border-radius: 30px;
     background-color: #000;
     color: #fff;
+    font-family: "Playfair Display", serif;
 }
 
 .section-3-btn button:hover{
@@ -361,13 +368,22 @@ color: #000;
     font-size: 40px;
     font-weight: 700;
 }
+@media screen and (max-width: 768px) {
+    
+    .section-3{
+        background-image: linear-gradient(172deg, rgba(249, 184, 0, 1) 85%, rgba(38, 38, 38, 1)  calc(85% + 2px)) ;
+    }
+    .section-3-content h1{
+        font-size: 24px;  
+    }
+    .section-3-image{
+        margin-top: -10%;
+    }
+}
 @media screen and (max-width: 488px) {
     
     .section-3{
         background-image: linear-gradient(172deg, rgba(249, 184, 0, 1) 91%, rgba(38, 38, 38, 1)  calc(91% + 2px)) ;
-    }
-    .section-3-content h1{
-        font-size: 24px;  
     }
 }
 @media screen and (max-width: 992px) {
@@ -422,6 +438,7 @@ color: #000;
 @media screen and (max-width: 768px) {
     .section-4{
         background-image: linear-gradient(172deg, rgba(38, 38, 38, 1) 75%, rgba(254, 237, 188, 1)  calc(75% + 2px)) ;
+        padding-bottom: 45%;
     }
     .section-main-title h1{
         font-size: 26px !important ;
@@ -487,20 +504,20 @@ footer{
 color: #000
 }
 @media screen and (max-width: 768px) {
-footer{
-    margin-top: -55%;
-}
+
     .footer-title h1{
         font-size: 20px;
         font-weight: 700;
         color: #000;
         text-align: center;
     }
+    
     .footer-btn{
         display: flex;
         justify-content: center;
         text-align: center;
         width: 100%;
+         font-family: "Playfair Display", serif;
     }
     .footer-copyright{
         text-align: center;
@@ -510,6 +527,14 @@ footer{
         display: flex;
         
     }
+}
+@media screen and (max-width: 582px) {
+    footer{
+        margin-top: -64%;
+    }
+        .section-4{
+            background-image: linear-gradient(172deg, rgba(38, 38, 38, 1) 70%, rgba(254, 237, 188, 1)  calc(70% + 2px)) ;
+        }
 }
 .footer-btn{
     background-color:rgba(249, 184, 0, 1) ;
@@ -525,7 +550,7 @@ footer{
     border-bottom: 1px solid #777;
 }
 .footer-copyright h6{
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 500;
     color: #000;
 }
