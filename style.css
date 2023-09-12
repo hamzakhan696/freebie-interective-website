@@ -38,18 +38,31 @@ header{
  
 
 }
+.header-image {
+    
+animation-delay: 100ms;
+
+
+}
 .header-content h2{
     font-size: 52px;
     font-weight: 700;
     line-height: 90px;
 }
-.header-btn:hover button{
+/* .header-btn:hover button{
   background-color: #000;
   color: #fff;
+} */
+.header-btn button:hover{
+        box-shadow:5px 5px #000, 5px 5px #000, 8px 8px #000;
+        transform: translateX(-1px );
+        border: 2px solid #000;
+        
 }
-.header-btn:hover i{
-    color: #fff;
+.header-btn button:hover i{
+    transform: rotate(90deg);
 }
+
 @media screen and (max-width: 992px) {
    
         .section1-image{
@@ -161,19 +174,28 @@ color:  rgba(38, 38, 38, 1);
     border-radius: 30px;
     font-family: "Playfair Display", serif;
 }
-.section-btn:hover button{
-    color: #000;
-    background-color: #fff;
+.section-btn button:hover{
+    box-shadow:5px 5px #fff, 5px 5px #fff, 8px 8px #fff;
+    transform: translateX(-1px );
+    border: 2px solid #fff;
+}
+.section-btn button:hover i{
+    transform: rotate(90deg);
 }
 .section2-btn button{
     color: #000;
     background: #fff;
     border-radius: 30px;
 }
-.section2-btn:hover button{
-    color: #fff;
-    background-color: #000;
+.section2-btn button:hover{
+    box-shadow:5px 5px rgba(249, 184, 0, 1), 5px 5px rgba(249, 184, 0, 1), 8px 8px rgba(249, 184, 0, 1);
+    transform: translateX(-1px );
+    border: 1px solid rgba(249, 184, 0, 1);
 }
+.section2-btn button:hover i{
+    transform: rotate(90deg);
+}
+
 /*  */
 @media screen and (max-width: 992px) {
     .section-1{
