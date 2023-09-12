@@ -124,15 +124,18 @@ animation-delay: 100ms;
    .header-image{
     margin-top: -5%;
    }
+  
    
+   .header-btn button,.section-btn button,.section2-btn button,.section-3-btn button{
+    width: 100%;
 }
-
+}
 .header-btn button{
     color: #000;
     background: rgba(249, 184, 0, 1);
     border-radius: 30px;
     font-family: "Playfair Display", serif;
-
+    
 }
 .header-btn i{
     color: #000;
