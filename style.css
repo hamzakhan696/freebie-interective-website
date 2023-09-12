@@ -55,7 +55,7 @@ animation-delay: 100ms;
 } */
 .header-btn button:hover{
         box-shadow:5px 5px #000, 5px 5px #000, 8px 8px #000;
-        border: 2px solid #000;
+        outline: 2px solid #000;
         
 }
 .header-btn button:hover i{
@@ -178,7 +178,8 @@ color:  rgba(38, 38, 38, 1);
 }
 .section-btn button:hover{
     box-shadow:5px 5px #fff, 5px 5px #fff, 8px 8px #fff;
-    border: 2px solid #fff;
+    outline: 2px solid #fff;
+    
 }
 .section-btn button:hover i{
     transform: rotate(90deg);
@@ -191,7 +192,7 @@ color:  rgba(38, 38, 38, 1);
 .section2-btn button:hover{
     box-shadow:5px 5px rgba(249, 184, 0, 1), 5px 5px rgba(249, 184, 0, 1), 8px 8px rgba(249, 184, 0, 1);
     transform: translateX(-1px );
-    border: 1px solid rgba(249, 184, 0, 1);
+    outline: 1px solid rgba(249, 184, 0, 1);
 }
 .section2-btn button:hover i{
     transform: rotate(90deg);
@@ -372,7 +373,7 @@ color:  rgba(38, 38, 38, 1);
 
 .section-3-btn button:hover{
     box-shadow:5px 5px #fff, 5px 5px #fff, 8px 8px #fff;
-    border: 2px solid #fff;
+    outline: 2px solid #000;
 }
 .section-3-btn button:hover i{
     transform: rotate(90deg);
